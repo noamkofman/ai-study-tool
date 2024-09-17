@@ -34,7 +34,7 @@ extracted_text = pytesseract.image_to_string(image)
 # Print the extracted text
 print(extracted_text)
 import google.generativeai as genai
-api = 'AIzaSyAziI2y1UmCIkSi2oGkM_lCJ8jjjtQ9Dx4'
+api = 'xxxx'
 # above & below we deifne our api key and below 
 genai.configure(api_key=api)
 model = genai.GenerativeModel('gemini-pro')
